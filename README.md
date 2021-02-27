@@ -8,7 +8,7 @@ This plugin puts the responsibility of of writing "WordPress" correctly in your 
 
 ## Where it can
 
-This plugin removes `capital_P_dangit()` when hooked to these filters:
+This plugin removes `capital_P_dangit()` as a filter on these hooks:
 
 * `the_title`
 * `wp_title`
