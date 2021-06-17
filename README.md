@@ -15,7 +15,4 @@ This plugin removes `capital_P_dangit()` as a filter on these hooks:
 * `the_content`
 * `comment_text`
 * `widget_text_content`
-
-## Where it can't
-
-* `capital_P_dangit()` is applied directly to `wp_document_title()` before it returns. See https://core.trac.wordpress.org/ticket/51643
+* `document_title` (as of 5.8)
